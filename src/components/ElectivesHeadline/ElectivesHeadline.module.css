@@ -1,0 +1,39 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+.elective_leftwrapper{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+}
+
+h3, p{
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.elective_leftwrapper h3{
+    font-weight: 500;
+    font-size: 3em;
+    margin: 10px 0;
+    line-height: 3.5;
+}
+
+.elective_leftwrapper p{
+    margin-top: 0;
+    line-height: 1.75;
+}
+
+.elective_leftwrapper a{
+    color:inherit;
+
+}
+
+.elective_leftwrapper p a{
+    color: #333;
+    text-decoration: none;
+    border-bottom: 1px solid #888;
+}
+
+.elective_leftwrapper p a:hover{
+    border-bottom: 1px solid #888;
+}
