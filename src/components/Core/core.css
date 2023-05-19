@@ -1,0 +1,73 @@
+.parent {
+  padding: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+  height: 100%;
+  justify-content: space-between;
+}
+
+.title {
+  font-size: 1rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 4rem;
+  margin-left: 1rem;
+  text-align: left;
+  flex-basis: 32%;
+}
+
+.skills {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+  width: 66%;
+}
+.skill {
+  width: 45%;
+  height: 200px;
+/*   margin: 10px; */
+}
+
+@media (max-width: 936px) {
+  .skills {
+    flex-wrap: nowrap;
+    flex-flow: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .skill {
+    width: 100%;
+  }
+  .title{
+    flex-basis: 100%;
+    width: 100%;
+  }
+}
+
+.listItemTitle {
+  background-color: rgb(219, 219, 23);
+  color: black;
+  padding: 16px 16px 16px 26px;
+}
+
+.listItemLink {
+  text-decoration: none;
+  color: black;
+  font-size: 16px;
+}
+
+
+p{
+  margin:0;
+  padding:0;
+}
+.listItemDescription {
+  margin: 10;
+}
+
+.listItemCode {
+  /* Styles for the code within each skill item */
+}
