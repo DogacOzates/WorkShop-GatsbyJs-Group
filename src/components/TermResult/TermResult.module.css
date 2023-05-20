@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Source+Sans+Pro:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700;1,900&display=swap');
+
+h4{
+    font-family: Source Sans Pro,sans-serif;
+    font-family: 'Source Code Pro', monospace;
+}
+
+p{
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #333;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.termres{
+    display: block;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    text-align: left;
+    border: 2px solid #787878;
+}
+
+.chrome{
+    height: 34px;
+    padding-left: 8px;
+    border-bottom: 2px solid #787878;
+}
+
+.chrome::before{
+    content: " ";
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
+
+
+.shell{
+    min-height: 130px;
+    color: #494949;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.btn{
+    display: inline-block;
+    vertical-align: middle;
+    width: 12px;
+    height: 12px;
+    border: 2px solid #787878;
+    border-radius: 100%;
+    margin-right: 4px;
+}
+
+.btnTerm{
+
+}
+
+.close:hover{
+    background: #f00;
+}
+
+.min:hover{
+    background: #f7da03;
+}
+
+.max:hover{
+    background: #0f0;
+}
+
+.termres code{
+    display: block;
+    margin: 12px 0;
+    padding: 4px 10px;
+    border-radius: 0;
+    background: none;
+    color: #333;
+    font-size: 0.7rem;
+}
+
+.workshopper{
+    background: #f8f0bd;
+    padding: 2px;
+}
